@@ -21,7 +21,9 @@ end
 #shift_with_args
 
 #using_concat
-
+def numbers = [5, 7, 8, 9]
+  numbers.concar([1, 2, 3])
+end 
 
 #using_insert
 def artist = [" nickleback", "ariana", "usher", "dmx"]
